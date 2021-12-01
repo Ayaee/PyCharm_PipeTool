@@ -4,6 +4,7 @@ import pymel.core as pm
 
 
 class Maya_Engine():
+
     def open(path):
         pm.openFile(path, force=True)
 
@@ -13,5 +14,7 @@ class Maya_Engine():
     def tool(self):
         pm.system.createReference(pm.fileDialog2(fileMode=1, caption="Tool Référence"))
 
-#if __name__ == '__main__':
-    #Maya_Engine.open(hard_coded_path)
+    implements = ['open', 'save', 'tool']
+
+'''if __name__ == '__main__':
+    Maya_Engine.open(hard_coded_path)'''
