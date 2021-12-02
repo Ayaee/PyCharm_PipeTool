@@ -8,7 +8,6 @@ def get_files():
 
 
 if __name__ == '__main__':
-
     for f in get_files():
         print(f)
     # print(get_files())

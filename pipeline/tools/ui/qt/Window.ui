@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>522</width>
-    <height>536</height>
+    <width>586</width>
+    <height>423</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,53 +20,9 @@
       <item>
        <widget class="QListWidget" name="listItems"/>
       </item>
-      <item>
-       <widget class="QPushButton" name="buttonOpen">
-        <property name="text">
-         <string>Open</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="buttonSave">
-        <property name="text">
-         <string>Save</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="buttonTool">
-        <property name="text">
-         <string>Tool</string>
-        </property>
-       </widget>
-      </item>
      </layout>
     </item>
-    <item>
-     <spacer name="verticalSpacer">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>40</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
    </layout>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>522</width>
-     <height>21</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

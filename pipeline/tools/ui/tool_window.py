@@ -26,11 +26,10 @@ class ToolWindow(QtWidgets.QMainWindow):
         # self.buttonSave.clicked.connect(self.save_file)
         # self.buttonTool.clicked.connect(self.create_tool)
 
-        if 'maya' in sys.executable:
+        '''if 'maya' in sys.executable:
             self.buttonTool.setText('Tool Maya')
-
         elif 'houdini' in sys.executable:
-            self.buttonTool.setText('Tool Houdini')
+            self.buttonTool.setText('Tool Houdini')'''
 
         for f in datas.get_files():
             addListWidgetItem(self.listItems, f, os.path.basename(f))
@@ -53,10 +52,6 @@ class ToolWindow(QtWidgets.QMainWindow):
         path = item.data(UserRole)
         fonction(path)
 
-
-
-
-
 def addListWidgetItem(listWidget, data, label):
     """ Used to fill a UI listWidget with listWidgetItem (label + data) """
     item = QtWidgets.QListWidgetItem()
@@ -64,6 +59,7 @@ def addListWidgetItem(listWidget, data, label):
     item.setText(label)
     listWidget.addItem(item)
     return item
+
 
 '''def open_file(self):
         item = self.listItems.currentItem()

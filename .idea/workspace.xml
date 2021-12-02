@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="06b2ec2a-8d4e-48c6-9af4-9b0cd0ee6d64" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipeline/engine/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline/engine/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline/tools/datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline/tools/datas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline/tools/ui/qt/Window.ui" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline/tools/ui/qt/Window.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline/tools/ui/tool_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline/tools/ui/tool_window.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
